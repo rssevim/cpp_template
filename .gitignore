@@ -1,0 +1,28 @@
+# Ignore the build directory and all its contents
+/build/
+
+# Ignore the coverage directory and all its contents
+/coverage/
+
+# Ignore the valgrind-logs directory and all its contents
+/valgrind-logs/
+
+# Ignore all log files
+*.log
+
+# Ignore CMake generated files in the build directory
+/build/CMakeFiles/
+/build/CMakeCache.txt
+/build/cmake_install.cmake
+/build/CTestTestfile.cmake
+/build/Makefile
+/build/Makefile2
+/build/TargetDirectories.txt
+/build/cmake.check_cache
+/build/progress.marks
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+
